@@ -1,0 +1,81 @@
+header {
+    background-color: #53ce5b;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    background-color: floralwhite;
+}
+
+.content{
+    display: flex;
+}
+
+.nav-pills .nav-item{
+    color: #53ce5b;
+}
+
+.content .sidebar{
+    padding: 30px 70px;
+    max-width: 300px;
+    background-color: rgba(213, 255, 156, 0.94);
+    box-shadow: 4px 0px 8px 0px rgba(253, 234, 234, 0.94);
+
+}
+.logo{
+    padding-right: 15px;
+}
+h1{
+    color: rgb(24, 33, 26);
+    font-weight: bold;
+
+}
+
+
+
+.content .sidebar nav li{
+    list-style-type: none;
+    margin: 100px;
+}
+.content .myInfo{
+    width: 65%;
+    padding: 30px;
+}
+
+
+footer{
+    text-align: center;
+}
+footer a{
+    margin: 20px;
+}
+
+.nav-pills > li > a.active {
+    background-color: rgba(253, 234, 234, 0.94) !important;
+    color: #ffffff !important;
+}
+
+.nav-pills > li > a:hover {
+    color: #53ce5b !important;
+}
+
+.nav-link-color {
+    color: #ffffff;
+}
+
+.blog-post-card{
+border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+
+
+.content .displayedPage{
+    width: 65%;
+    padding: 30px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<img src="resources/blog.png" alt="logo" class="logo">
+<body>
+
+<header>
+
+    <div>
+        <h1> Blog App</h1>
+        <br>
+        <h2>Latest Blog Posts</h2>
+    </div>
+</header>
+
+<div class="content">
+
+    <div class="sidebar">
+
+        <div id="loginFormContainer">
+            <h3>Login</h3>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="text" class="form-control" id="password" name="password" required>
+                </div>
+                <button type="Submit" class="btn btn primary">Login</button>
+            </form>
+            <br>
+            <div id="validation"></div>
+        </div>
+
+
+        <div id="blogForm"></div>
+            <div id="blogFormContainer" style="display: none">
+                <div id="userGreeting"></div>
+                <h3>Create New Blog Post</h3>
+                <form id="blogPostForm">
+                    <div class="form-group">
+                        <label for="postTitle">Title</label>
+                        <input type="text" class="form-control" id="postTitle" name="postTitle" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="postContent">Content</label>
+                        <textarea class="form-control" id="postContent" name="postContent" rows="5" required></textarea>
+                    </div>
+                    <button type="Submit" class="btn btn primary">Submit Post</button>
+                </form>
+                <br>
+                <div id="postValidation"></div>
+
+            </div>
+    </div>
+
+    <div class="displayedPage">
+        <h1>Latest Blog Post</h1>
+        <div id="blogPosts"></div>
+
+    </div>
+</div>
+
+
+<footer>
+    <hr>
+    <a href="https://github.com/Gabbyinfante">GitHub</a>
+    <a href="https://LinkedIn.com/">LinkedIn</a>
+    <br>
+    <p> Gabriella Infante <br> 856-882-6007 <br> gki5029@psu.edu </p>
+    <p>&copy; Copyright 2024</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
